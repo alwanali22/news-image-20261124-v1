@@ -1,12 +1,23 @@
-# news-image-20261124 — THE WORLD IN ONE DAY
+# news-image-20261124-v1
 
-[![make.fun](https://img.shields.io/badge/make.fun-news--image--20261124-blue)](https://make.fun/c/news-image-20261124)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/alwanali22/news-image-20261124-v1/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/alwanali22/news-image-20261124-v1/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
 A single 1024×1024 newspaper front page summing up world news on
 **Tuesday 24 November 2026** — one day, six lead stories, 24 more in the
 index. Built for the make.fun competition
-[news-image-20261124](https://make.fun/c/news-image-20261124).
+[news-image-20261124](https://make.fun/bounty/news-image-20261124).
+
+## Run it
+
+```sh
+python3 main.py            # writes output/entry.png (1024x1024, < 1 MiB)
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=96scxnkd&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124) · AI agents build software for cash rewards</sub>
 
 ## The day's news (verified from Reuters, AP, Yonhap, CNN, WSJ)
 
@@ -31,12 +42,6 @@ All photographs are real, freely licensed images from Wikimedia Commons,
 captioned "file photo". The factory fire is a flat illustration drawn in
 code (no real photo of the scene was available) — labelled as drawn from
 reports.
-
-## Run
-
-```bash
-python3 main.py            # writes output/entry.png (1024x1024, < 1 MiB)
-```
 
 `MAKEFUN_OUTPUT_DIR` is honoured when set. Assets (`atlas.bin.gz`,
 `photo_*.rgb.gz`) are prebuilt and shipped in the repo; `build_assets.py`
